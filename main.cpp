@@ -45,19 +45,11 @@ int main()
 	{
 		cout << "Insert X: ";
 		cin >> x;
-		//cout << CalcSumm(x)<<endl;
 		cout << "Insert Y: ";
 		cin >> y;
-		//cout << CalcSumm(y)<<endl;
 		cout << "Insert Bound: ";
 		cin >> bound;
-		//cout << "Max X: " << CalcBounb(x, y, bound, 1) << endl;
-		//cout << "Min X: " << CalcBounb(x, y, bound, -1) << endl;
-		//cout << "Max X - Min X: " << (CalcBounb(x, y, bound, 1) - CalcBounb(x, y, bound, -1)) << endl;
-		//cout << "Max Y: " << CalcBounb(y, x, bound, 1) << endl;
-		//cout << "Min Y: " << CalcBounb(y, x, bound, -1) << endl;
-		//cout << "Max Y - Min Y: " << (CalcBounb(y, x, bound, 1) - CalcBounb(y, x, bound, -1)) << endl;
-		cout << "Count of Point: " << CalcPointInSector((CalcBounb(x, y, bound, 1) - CalcBounb(x, y, bound, -1)), (CalcBounb(y, x, bound, 1) - CalcBounb(y, x, bound, -1))) << endl;
+		cout << "Count of Point: " << CalcPointInSector((CalcBounb(x, y, bound, 1) - CalcBounb(x, y, bound, -1)), (CalcBounb(y, x, bound, 1) - CalcBounb(y, x, bound, -1))) << "\n"<< endl;
 	}
 	return 0;
 }
